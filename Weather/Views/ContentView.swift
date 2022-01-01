@@ -72,6 +72,7 @@ struct ContentView: View {
   
   func getWeatherByCityName() {
     weatherManager.fetchWeather(cityName: searchText)
+    searchText = ""
   }
 }
 

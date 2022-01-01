@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1122BE912780C9CA00416387 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1122BE902780C9CA00416387 /* Secrets.plist */; };
 		1122BE942780CA0100416387 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122BE932780CA0100416387 /* Settings.swift */; };
+		117940EC2780D34B00DB1E0C /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 117940EB2780D34B00DB1E0C /* Secrets.plist */; };
 		11A3AD182780849B0048EF33 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3AD172780849B0048EF33 /* WeatherApp.swift */; };
 		11A3AD1A2780849B0048EF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3AD192780849B0048EF33 /* ContentView.swift */; };
 		11A3AD1C2780849C0048EF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A3AD1B2780849C0048EF33 /* Assets.xcassets */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1122BE902780C9CA00416387 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		1122BE932780CA0100416387 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		117940EB2780D34B00DB1E0C /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		11A3AD142780849B0048EF33 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A3AD172780849B0048EF33 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		11A3AD192780849B0048EF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				1122BE932780CA0100416387 /* Settings.swift */,
-				1122BE902780C9CA00416387 /* Secrets.plist */,
+				117940EB2780D34B00DB1E0C /* Secrets.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A3AD1F2780849C0048EF33 /* Preview Assets.xcassets in Resources */,
-				1122BE912780C9CA00416387 /* Secrets.plist in Resources */,
+				117940EC2780D34B00DB1E0C /* Secrets.plist in Resources */,
 				11A3AD1C2780849C0048EF33 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
